@@ -1,0 +1,19 @@
+Matrices multiplication
+
+worldMatrix = worldMatrix * scale * translate; // translate the world and then scales the world
+
+worldMatrix = worldMatrix * translate * scale; // scales the world and then translate it
+
+the order of effect in matrices multiplication is: <-
+
+Astronomy:
+Sun's diameter 		      = 1,392,684 km 			= 109    	* earth's diameter
+
+Mercury's diameter 	      = 4,879.4 km			= 0.382		* earth's diameter
+Distance from mercury to sun  = 46,000,000 - 70,000,000 km	= 3606 - 5487 	* earth's diameter
+
+Earth's diameter	      = 12,756.32 km
+Distance from earth to sun    = 149,597,870.7 km		= 11,727 	* earth's diameter
+
+Moon's diameter		      = 3,474 km     			= 0.273  	* earth's diameter
+Distance from moon to earth   = 384,403 km			= 30 	 	* earth's diameter

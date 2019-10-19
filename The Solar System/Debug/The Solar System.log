@@ -1,0 +1,69 @@
+﻿Build started 01/05/2014 15:09:37.
+     1>Project "D:\ים המלך\VS2010 Projects\C++ Projects\DirectX 10\The Solar System\The Solar System\The Solar System.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\The Solar System.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ApplicationClass.cpp BumpMapShaderClass.cpp CameraClass.cpp DirectXClass.cpp EarthClass.cpp EarthShaderClass.cpp InputClass.cpp LightClass.cpp Main.cpp PlanetClass.cpp SphereModelClass.cpp SunClass.cpp TextureClass.cpp TextureShaderClass.cpp WindowClass.cpp
+         WindowClass.cpp
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\windowclass.cpp(100): warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\windowclass.cpp(101): warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\windowclass.cpp(132): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\windowclass.cpp(132): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\windowclass.cpp(203): warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\windowclass.cpp(204): warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\windowclass.cpp(258): warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+         TextureShaderClass.cpp
+         TextureClass.cpp
+         SunClass.cpp
+         SphereModelClass.cpp
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\spheremodelclass.cpp(226): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\spheremodelclass.cpp(265): warning C4018: '<' : signed/unsigned mismatch
+         PlanetClass.cpp
+         Main.cpp
+         LightClass.cpp
+         InputClass.cpp
+         EarthShaderClass.cpp
+         EarthClass.cpp
+         DirectXClass.cpp
+         CameraClass.cpp
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\cameraclass.cpp(82): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\cameraclass.cpp(83): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\cameraclass.cpp(84): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         BumpMapShaderClass.cpp
+         ApplicationClass.cpp
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\applicationclass.cpp(251): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\applicationclass.cpp(251): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\applicationclass.cpp(270): warning C4244: 'argument' : conversion from 'float' to 'unsigned short', possible loss of data
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\applicationclass.cpp(270): warning C4244: 'argument' : conversion from 'float' to 'unsigned short', possible loss of data
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\applicationclass.cpp(342): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\applicationclass.cpp(353): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>d:\ים המלך\vs2010 projects\c++ projects\directx 10\the solar system\the solar system\applicationclass.cpp(386): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ים המלך\VS2010 Projects\C++ Projects\DirectX 10\The Solar System\Debug\The Solar System.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\The Solar System.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\ים המלך\VS2010 Projects\C++ Projects\DirectX 10\The Solar System\Debug\The Solar System.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ים המלך\VS2010 Projects\C++ Projects\DirectX 10\The Solar System\Debug\The Solar System.lib" /MACHINE:X86 Debug\ApplicationClass.obj
+         Debug\BumpMapShaderClass.obj
+         Debug\CameraClass.obj
+         Debug\DirectXClass.obj
+         Debug\EarthClass.obj
+         Debug\EarthShaderClass.obj
+         Debug\InputClass.obj
+         Debug\LightClass.obj
+         Debug\Main.obj
+         Debug\PlanetClass.obj
+         Debug\SphereModelClass.obj
+         Debug\SunClass.obj
+         Debug\TextureClass.obj
+         Debug\TextureShaderClass.obj
+         Debug\WindowClass.obj
+         LINK : D:\ים המלך\VS2010 Projects\C++ Projects\DirectX 10\The Solar System\Debug\The Solar System.exe not found or not built by the last incremental link; performing full link
+         The Solar System.vcxproj -> D:\ים המלך\VS2010 Projects\C++ Projects\DirectX 10\The Solar System\Debug\The Solar System.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\ים המלך\VS2010 Projects\C++ Projects\DirectX 10\The Solar System\Debug\The Solar System.exe;#1" /manifest "Debug\The Solar System.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\The Solar System.unsuccessfulbuild".
+         Touching "Debug\The Solar System.lastbuildstate".
+     1>Done Building Project "D:\ים המלך\VS2010 Projects\C++ Projects\DirectX 10\The Solar System\The Solar System\The Solar System.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.68
